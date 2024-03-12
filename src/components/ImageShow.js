@@ -1,6 +1,8 @@
 function ImageShow({ image }) {
     return (
-        <div>{image.id}</div>
+        <div>
+            <img src={image.urls.small} alt={image.alt_descr} />
+        </div>
     );
 }
 
